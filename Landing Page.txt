@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<style>
+  #d-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+  height: auto;
+  }  
+  #carouselExampleIndicators{
+    margin-bottom: 100px;
+  }
+
+  div.mb-3,mb-3 form-check{
+  
+    margin: auto;
+    padding: 5px;
+    max-width: 800px;
+    text-align: left;
+    background-color: white;
+    margin: solid;
+  
+  }
+  footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+  div.container{
+    border-top: 1px solid rgb(0, 0, 0)
+
+  }
+div.dropdown{
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+#a{
+  margin-left: 50px;
+}
+#first{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#f{
+  margin-left: 50px;
+}
+#second{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#s{
+  margin-left: 50px;
+}
+#third{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#t{
+  margin-left: 50px;
+}
+#fourth{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#fr{
+  margin-left: 50px;
+}
+.footer{
+    margin-top: 50px;
+}
+.sub{
+    margin-left: 365px;
+    margin-bottom: 100px;
+}
+#exampleCheck1{
+    margin-left: 100px;
+}
+.form{
+    margin-left: px;
+}
+</style>
+
+
+
+  </head>
+<body>
+    <div></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Avatar.wiki</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Character
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="katara.html">katara</a>
+              <a class="dropdown-item" href="azula.html">Azul</a>
+              <a class="dropdown-item" href="zuko.html">Zuko</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="booklink.html">Book Links</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 " id="sea" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+      <div class="container mt-3">
+  <h2>Avatar</h2>
+  <h3>Aang</h3><br>
+
+  <div class="media">
+   <img src="https://shop.swensens.com.sg/wp-content/uploads/2021/08/8601-Avatar-Aang.png" class="Aang" alt="">
+    <div class="media-body">
+      <h4>Aang <small><i>The Boy in the Iceberg</i></small></h4>
+      <p>Upon death, Avatar Roku was reincarnated and Aang was born, and later raised by Monk Gyatso, a senior monk at the Southern Air Temple and friend of the late Avatar Roku.</p>
+      <p> Even prior to learning he was the Avatar, Aang distinguished himself by becoming one of the youngest Airbending Masters in history by inventing a new technique.</p>
+      <p></p><br> 
+      <h4>Early life</h4>
+      <p>Aang was born to two Air Nomads in 12 BG. After selecting the Avatar relics from among thousands of toys, thereby inadvertently confirming his identity as the Avatar, he was taken away by the monks of the Southern Air Temple, who kept his position a secret from him.As an Air Nomad, Aang traveled extensively around the world.During his childhood, Aang was housed, raised, and educated at the Southern Air Temple, under the guardianship of monk Gyatso, who served as his father figure, counselor, and tutor. After some time, he and several other young Air Nomad boys were taken to the Eastern Air Temple, where they each chose a sky bison as their lifelong companion. Aang approached his soon-to-be sky bison Appa and offered him an apple, which Appa accepted, thus marking the start of their deep and lifelong friendship.</p>
+      <p>Aang was always able to excel at any new bending moves he learned; at the age of six, he was a better airbender than children twice his age, and by the age of ten, Aang had proven himself to be better than his own teachers.He earned airbending tattoos and the status of an airbending master by the age of twelvefor exhibiting prodigious talent with his native element and with his invention of the air scooter,making him the youngest airbending master in Air Nomad history.</p><br>
+      
+    </div>
+      </div>  
+    </div>
+
+    <div id="a"><h3>Appearances</h3></div>
+      <div>
+
+        <h4 id="f"><li>Avatar: The Last Airbender</li></h4>
+        <p  id="first">Upon death, Avatar Roku was reincarnated and Aang was born, and later raised by Monk Gyatso, a senior monk at the Southern Air Temple and friend of the late Avatar Roku. Even prior to learning he was the Avatar, Aang distinguished himself by becoming one of the youngest Airbending Masters in history by inventing a new technique. As a result of Fire Lord Sozin's increasingly hostile attitude towards the other nations, the senior monks decided to reveal Aang's nature as the Avatar four years before the traditional age (Avatars are usually told of their status once they turn 16) and relocate him to one of the other Air Temples.[9][10] Learning that he was to be taken from Gyatso caused Aang to flee the monastery on his flying bison, Appa, before being caught by a storm; the life-or-death conditions triggered the Avatar State, encasing the young Avatar and his bison in an air-pocket among icebergs, where he remained suspended for a century. Although Monk Gyatso had snuck into Aang's bedroom late at night to tell Aang that he will not be relocated to the Eastern Air Temple, it had already been too late.</p>
+        
+        <h4 id="s"><li>Book One: Water</li></h4>
+        <p id="second">After one hundred years of suspended animation in an iceberg, twelve-year-old Aang was freed when found by Katara and Sokka, yet unaware of the events that occurred during his rest.[11] His reawakening catches the attention of Prince Zuko, the banished son of current Fire Lord Ozai, and Aang is forced to leave, with Katara and Sokka accompanying him after they learn that he is the Avatar.[12] Aang and his new friends visit the Southern Air Temple, where they meet a winged lemur whom Aang later names Momo. It is there that Aang learns that the Fire Nation wiped out his people, including Gyatso which causes Aang to summon his avatar spirit and the other 3 nations find out the avatar is back. After a series of misadventures, Aang meets his previous incarnation, Roku, who informs him that he must master all four bending arts and end the war before the coming of Sozin's Comet at the end of summer.[13] Upon arriving to the Northern Water Tribe, after a few conflicts, Aang became an apprentice of Waterbending Master Pakku alongside Katara.[14] After helping the Water Tribe drive off a Fire Nation invasion headed by Admiral Zhao, with Katara as his teacher, Aang and his group journey to the Earth Kingdom to find an Earthbending teacher. Ozai, angered that Iroh betrayed the Fire Nation, sends his daughter, Princess Azula, to hunt down Zuko and Iroh.[</p>
+        
+        <h4  id="t"><li>Book Two: Earth</li></h4> 
+        <p id="third">In the second season, Aang learns Earthbending from Toph Beifong[16] after he has a vision of the blind Earthbender in a swamp telling him to find her.[17] On their journey, they are chased by Fire Princess Azula and her friends Mai and Ty Lee.[18] The group learns about the Day of Black Sun in a secret underground library, and they attempt to reveal the information to the Earth King at Ba Sing Se. However, their flying bison, Appa, is captured by Sandbenders. Aang grows upset and angry and confronts the Sandbenders, learning that Appa has been sold. After stopping a Fire Nation drill threatening the safety of Ba Sing Se, they look for Appa only to find themselves dealing with the Dai Li before exposing their leader's deception. The group reunites with Jet helping them find Appa at Dai Li headquarters. They expose the Hundred Year War to the Earth King, who promises to help them invade the Fire Nation. Soon after, Aang meets a guru who attempts to teach Aang to open his seven chakras in order to control the defensive 'Avatar State'; but when Aang perceives Katara in danger, he leaves before the seventh chakra is opened, and thus loses his progress until the seventh is opened.[19] Though Aang manages to unlock the Seventh Chakra, he is fatally electrocuted by Azula. He is later brought back to life by Katara, using the spirit water given to her by the Northern Water Tribe at the start of the second season.[20]</p>
+        
+        <h4  id="fr"><li>Book Three: Fire</li></h4> 
+        <p id="fourth">In the beginning of third and final season, after he woke after being knocked out by Azula, Aang grew some hair. After that, Aang is unable to use the Avatar State for quite a while. Although reluctant with the plan at first, Aang accepts to have everyone think he had died and his remaining allies attack the Fire Nation's capital, but are thwarted by Azula.[21] However, Zuko has a change of heart, rebels against his father,[22] and offers to teach Aang Firebending. Aang and Zuko also improve their Firebending powers with the help of their world's last two dragons.[23] (In this part of the show, he is 13) During the finale, finding himself on a strange island, Aang is reluctant to actually kill Fire Lord Ozai, despite his four previous past lives (Roku, Kyoshi, Kuruk, and Yangchen) convincing him it is the only way. But upon learning that he was actually on the back of a Lion Turtle, one of four that made the first benders by manipulating humans' chi, Aang receives the Lion Turtle's Energybending. During the final battle, Aang's scar is pressed against a jutting rock, opening his chakras and allowing him to enter the Avatar State. Aang wins the battle, but before he delivers the final blow, he stops himself. Instead, Aang removes Ozai's firebending ability, rendering him harmless and ending the Hundred Year War. Later, in the Fire Nation capital, Aang is seen beside Zuko, the new Fire Lord. The series ends with Aang and his friends relaxing at Iroh's tea shop at Ba Sing Se, where Aang and Katara share a kiss.[24]</p>
+      
+      </div>
+        
+
+      <div class="container text-center">
+        <h3>List of Season's</h3>
+        <div class="row">
+          <div class="col">
+          <h4>The Legend Of Korra (season 1)</h4>
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/The_Legend_of_Korra_-_Book_One%2C_Air_DVD_cover.png/250px-The_Legend_of_Korra_-_Book_One%2C_Air_DVD_cover.png" alt="">
+          <p><b>Book One:</b> Air is the first season of the American animated television series The Legend of Korra created by Michael Dante DiMartino and Bryan Konietzko. Consisting of twelve episodes (called "chapters"), it was initially intended to be a stand-alone epilogue miniseries sequel to Avatar: The Last Airbender before the series was expanded to an order of four seasons ("books") of fifty-two episodes ("chapters") in total.</p>
+        </div>
+
+          <div class="col">
+            <h4>The Legend of Korra (season 2)</h4>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Legend_of_Korra_Book_2_DVD.jpg/250px-Legend_of_Korra_Book_2_DVD.jpg" alt="">
+            <p><b>Book Two:</b>Spirits is the second season of the animated TV series The Legend of Korra by Michael Dante DiMartino and Bryan Konietzko. It consists of fourteen episodes ("chapters"). It focuses more on spiritual concepts and themes than the preceding season, Book One: Air. Ordered in early 2011, Book Two: Spirits began airing on Nickelodeon in the U.S. on September 13, 2013.</p>
+          </div>
+         
+          <div class="col">
+            <h4>The Legend of Korra (season 3)</h4>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Legend_of_Korra_Book_3_DVD.jpg/250px-Legend_of_Korra_Book_3_DVD.jpg" alt="">         
+            <p><b>Book Three:</b>Change is the third season of the animated television series The Legend of Korra, created by Michael Dante DiMartino and Bryan Konietzko,and consists of thirteen episodes ("chapters"),all animated by Studio Mir. The season began airing on Nickelodeon in the U.S. on June 27, 2014. After leaked episodes and following declining ratings, the series stopped airing on Nickelodeon after episode 8 on July 25, 2014.</p>
+          </div>
+
+          <div class="col">
+            <h4>The Legend of Korra (season 4)</h4>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Legend_of_Korra_Book_4_DVD.jpg/250px-Legend_of_Korra_Book_4_DVD.jpg" alt="">
+            <p><b>Book Four:</b>Balance is the fourth and final season of the animated television series The Legend of Korra by Michael Dante DiMartino and Bryan Konietzko. It consists of thirteen episodes ("chapters"), all animated by Studio Mir. The episodes were made available on the Nickelodeon website and other online outlets each Friday beginning on October 3, 2014 and premiered on Nicktoons on November 28, 2014.</p>
+          </div>
+
+        </div>
+        </div>
+      </div><br>
+
+      <form class="form">
+        <div class="mb-3">
+          <h3>For More Such Content Login Into</h3>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary sub">Submit</button>
+      </form>
+      
+      <footer>
+        <a href="https://www.redditinc.com/" class="fa fa-reddit"></a>
+        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        <a href="https://www.google.com/" class="fa fa-google"></a>
+      </footer>
+
+
+      <footer ><br>
+        &copy; 2023 Avatar-and-itschar
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $("#sea").click(function(){
+            alert("Your search bar is empty ")
+        })
+    </script>
+
+
+</body>
+</html>
